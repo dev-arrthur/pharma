@@ -1,0 +1,16 @@
+{
+  "currency_fields": {
+    "compras.itens.*.valorUnitario": {
+      "currency": "BRL",
+      "unit": "reais",
+      "decimal_separator": "."
+    }
+  },
+  "references": {
+    "compras.funcionarioId": {
+      "collection": "funcionarios",
+      "key": "_id",
+      "label": "nome"
+    }
+  }
+}
