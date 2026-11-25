@@ -3,3 +3,7 @@
 !.env.example
 node_modules/
 *.zip
+
+.venv/
+__pycache__/
+*.pdf
